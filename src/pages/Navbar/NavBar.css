@@ -1,0 +1,64 @@
+.navbar-container{
+    z-index: 3;
+    padding: 20px 100px 20px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    z-index:+100;
+}
+.navbar-container.active{
+    background: rgba(8, 11, 45, 0.3);
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+
+    transition: all 0.2s ease-in-out;
+}
+.navbar-link{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 44px;
+    padding-bottom:10px;
+}
+.navbar-link .active{
+    color: #828CBE;
+}
+.navbar-logo{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.border-link{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 44px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 27px 10px 27px;
+}
+.border-link:hover{
+    background: #FFFFFF;
+    color: #080B2D;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+
+.navbar-link:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.navbar-link.active{
+    border-bottom: 2px solid #FFFFFF;
+}

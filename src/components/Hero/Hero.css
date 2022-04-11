@@ -1,0 +1,49 @@
+.circle-one{
+    position: absolute;
+    height: 1500px;
+    top: -100px; 
+    right: 0px;
+    z-index:1;
+}
+.circle-two{
+    position: absolute;
+    bottom: -3px; 
+    left: 0px;
+    z-index:2;
+}
+ .brand-logo{
+    font-weight: 800;
+    font-size: 100px;
+    width: 100%;
+    z-index:4;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.brand-logo> .brand-name{
+    background: linear-gradient(105.13deg, #828CBE 19.13%, #C9CAD0 83.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.brand-logo > .brand-description{
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff;
+}
+.cube{
+    z-index: 3;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-container{
+
+    height: 100vh;
+    background: #080B2D;
+}
